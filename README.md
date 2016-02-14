@@ -5,8 +5,8 @@ Iterates over collection and applies a promise to each.
 This is useful if each item in the array needs to perform an asynchronous action
 but as a whole needs to occur synchronously.
 
-Index Location: `dist/index.js';
-Type Definitions: `dist/index.d.ts`;
+Index Location: `dist/index.js`
+Type Definitions: `dist/index.d.ts`
 
 # for
 
