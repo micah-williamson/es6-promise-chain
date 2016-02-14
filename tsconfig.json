@@ -20,7 +20,6 @@
     "src/for.ts",
     "src/forEach.ts",
     "src/index.ts",
-    "src/src.tests.ts",
     "src/while.ts"
   ],
   "atom": {
