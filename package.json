@@ -1,0 +1,32 @@
+{
+  "name": "es6-promise-chain",
+  "version": "1.0.0",
+  "description": "ES6/Typescript Synchronous Promise Chaining Library",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamchairs/es6-promise-chain.git"
+  },
+  "keywords": [
+    "es6",
+    "typescript",
+    "promise",
+    "synchronous",
+    "asynchronous",
+    "chain",
+    "chaining",
+    "loop",
+    "for",
+    "forEach",
+    "while"
+  ],
+  "author": "Micah Williamson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamchairs/es6-promise-chain/issues"
+  },
+  "homepage": "https://github.com/iamchairs/es6-promise-chain#readme"
+}

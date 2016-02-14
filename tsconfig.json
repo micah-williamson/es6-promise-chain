@@ -1,0 +1,29 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "outDir": "./dist/"
+  },
+  "filesGlob": [
+    "node_modules/es6-promise/dist/es6-promise.js",
+    "typings/tsd.d.ts",
+    "src/**/*.ts"
+  ],
+  "files": [
+    "typings/tsd.d.ts",
+    "src/for.ts",
+    "src/forEach.ts",
+    "src/index.ts",
+    "src/src.tests.ts",
+    "src/while.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
