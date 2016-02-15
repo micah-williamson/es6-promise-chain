@@ -15,7 +15,7 @@ It will wait for each subsequent promises to resolve before continuing to the ne
 This can be done with promise chaining already but can only deal with fixed tasks and
 not a dynamic array of tasks.
 
-**for(Array<callback () => Promise<any>>);**
+`for(Array<callback () => Promise<any>>);`
 
     import * as PromiseChain from 'es6-promise-chain';
 
@@ -52,7 +52,7 @@ not a dynamic array of tasks.
 The `forEach` function iterates over an array and applies a callback to each item.
 This is useful if each item in an array should take the same action.
 
-**forEach(Array<T>, callback (item: T) => Promise<any>);**
+`forEach(Array<T>, callback (item: T) => Promise<any>);`
 
     import * as PromiseChain from 'es6-promise-chain';
 
@@ -77,7 +77,7 @@ This is useful if each item in an array should take the same action.
 The `while` function runs the callback while the condition in the first argument
 is met.
 
-**while(condition: () => boolean, callback: () => Promise<any>)**
+`while(condition: () => boolean, callback: () => Promise<any>)`
 
     import * as PromiseChain from 'es6-promise-chain';
 
