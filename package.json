@@ -1,6 +1,6 @@
 {
   "name": "es6-promise-chain",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "ES6/Typescript Synchronous Promise Chaining Library",
   "main": "dist/index.js",
   "scripts": {
